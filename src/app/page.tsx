@@ -10,7 +10,7 @@ export default async function Home() {
   void api.post.getLatest.prefetch();
 
   return (
-    <main className="flex min-h-screen flex-col scroll-smooth bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
+    <main className="flex min-h-screen flex-col scroll-smooth">
       <section className="flex min-h-screen items-center justify-center">
         <LandingPage />
       </section>
